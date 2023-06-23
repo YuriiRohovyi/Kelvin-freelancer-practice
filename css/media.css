@@ -28,10 +28,13 @@
     color: #000;
   }
   .nav-button {
-    position: fixed;
+    position: absolute;
     z-index: 9;
     top: 46px;
     right: 30px;
+  }
+  .nav.open .nav-button {
+    position: fixed;
   }
 
   .header-nav {
@@ -54,5 +57,36 @@
   }
   .header-heding span {
     font-size: 28px;
+  }
+  .services {
+    padding: 60px 0;
+  }
+  .portfolio {
+    padding: 60px 0;
+  }
+  .portfolio-title {
+    margin-bottom: 50px;
+  }
+  .project-img {
+    margin-bottom: 30px;
+  }
+  .project + .project {
+    margin-top: 55px;
+  }
+  .contacts {
+    padding: 60px 0;
+  }
+  .contacts-title {
+    margin-bottom: 20px;
+  }
+  .contacts-content {
+    margin-bottom: 20px;
+  }
+  .contacts-button {
+    margin-bottom: 70px;
+  }
+  .contacts-social {
+    margin-bottom: 20px;
+    column-gap: 50px;
   }
 }

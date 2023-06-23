@@ -104,8 +104,14 @@ body {
   padding: 90px 0;
 }
 .services-row {
+  row-gap: 60px;
   display: flex;
   column-gap: 30px;
+  flex-wrap: wrap;
+}
+.service-card {
+  flex: 1 1 0;
+  min-width: 315px;
 }
 .service-card-img {
   margin-bottom: 30px;
